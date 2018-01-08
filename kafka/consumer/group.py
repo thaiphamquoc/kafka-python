@@ -384,7 +384,7 @@ class KafkaConsumer(six.Iterator):
 
         Raises:
             IllegalStateError: If consumer has already called
-            :meth:`~kafka.KafkaConsumer.subscribe`.
+                :meth:`~kafka.KafkaConsumer.subscribe`.
 
         Warning:
             It is not possible to use both manual partition assignment with
