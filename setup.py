@@ -33,15 +33,15 @@ with open(os.path.join(here, 'README.rst')) as f:
     README = f.read()
 
 setup(
-    name="kafka-python",
+    name="pyka",
     version=__version__,
 
     tests_require=test_require,
     cmdclass={"test": Tox},
     packages=find_packages(exclude=['test']),
-    author="Dana Powers",
-    author_email="dana.powers@gmail.com",
-    url="https://github.com/dpkp/kafka-python",
+    author="Dana Powers, Thai Pham",
+    author_email="dana.powers@gmail.com,thaiphamquoc@gmail.com",
+    url="https://github.com/thaiphamquoc/kafka-python",
     license="Apache License 2.0",
     description="Pure Python client for Apache Kafka",
     long_description=README,
